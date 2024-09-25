@@ -1,0 +1,26 @@
+#board{
+    background: linear-gradient(rgb(138, 205, 138) , rgb(203, 203, 126));
+    height: 500px;
+    width: 50%;
+    margin: 2%;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.food{
+    background-color: gold; 
+    border: .25vmin solid black;
+    border-radius: 20px;
+}
+.snake{
+    background-color: black;
+    border: .27vmin solid white;
+    border-radius: 8px;
+}
+.head {
+    background-color: red;
+    border: 2px solid black;
+    transform: scale(1.02);
+    border-radius: 10px;
+}

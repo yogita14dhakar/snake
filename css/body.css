@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url('../assets/bgImage/snake.jpg');
+    min-height: 100vh;
+    background-size: 110vw 100vh;    
+    display: flex; 
+    align-items: center;
+}
+
+#box{
+    background-color: aliceblue;
+    position: absolute;
+    font-size: 39px;
+    font-weight: bold;
+    top: 120px;
+    right: 200px;
+}
+
