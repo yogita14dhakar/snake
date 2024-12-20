@@ -9,9 +9,11 @@
 }
 
 .food{
+    height: 1.2rem;
+    width: 1.2rem;
     background-color: gold; 
     border: .25vmin solid black;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 .snake{
     background-color: black;
