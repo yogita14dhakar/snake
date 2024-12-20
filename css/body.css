@@ -14,9 +14,9 @@
 #box{
     background-color: aliceblue;
     position: absolute;
-    font-size: 39px;
+    font-size: 2rem;
     font-weight: bold;
-    top: 120px;
-    right: 200px;
+    top: 1.5rem;
+    right: 3rem;
 }
 
